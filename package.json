@@ -1,0 +1,34 @@
+{
+  "name": "greenbook-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch-one": "tsx src/fetchOne.ts",
+    "scrape": "tsx src/scrapeAll.ts",
+    "medicines": "tsx src/buildMedicines.ts",
+    "export": "tsx src/exportForPM.ts",
+    "excel": "tsx src/exportExcel.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.23.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.23.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
