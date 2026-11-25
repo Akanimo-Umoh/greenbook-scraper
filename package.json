@@ -8,8 +8,9 @@
     "fetch-one": "tsx src/fetchOne.ts",
     "scrape": "tsx src/scrapeAll.ts",
     "medicines": "tsx src/buildMedicines.ts",
-    "export": "tsx src/exportForPM.ts",
-    "excel": "tsx src/exportExcel.ts"
+    "export": "tsx src/exportForUse.ts",
+    "excel": "tsx src/exportExcel.ts",
+    "typecheck": "tsc"
   },
   "keywords": [],
   "author": "",
